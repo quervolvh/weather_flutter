@@ -29,7 +29,8 @@ class CityWeather extends StatelessWidget {
                 style: manropeText(18.4, FontWeight.w400, null),
               ),
               Text(
-                "${double.parse(temperatures!.forecast.forecastday[0].day.mintempC).toInt()}/${double.parse(temperatures!.forecast.forecastday[0].day.maxtempC).toInt()} \u00B0 C",
+                "${double.parse(temperatures!.forecast.forecastday[0].day.mintempC).toInt()}/"
+                    "${double.parse(temperatures!.forecast.forecastday[0].day.maxtempC).toInt()} \u00B0 C",
                 style: manropeText(17.4, FontWeight.w500, null),
               )
             ],
